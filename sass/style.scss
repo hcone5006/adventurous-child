@@ -18,7 +18,9 @@ $light-pink: #ef4481;
 $dark-pink: #c11f52;
 $dark-color: #333;
 
-a{color:#EF4481;}
+a{color:$light-pink;
+    &:hover, &:active, &:focus{text-decoration:none; color:$dark-pink;}
+}
 
 #masthead{background-color:#333;border:0px solid #eee;}
 
@@ -34,7 +36,6 @@ a{color:#EF4481;}
     }
 }
 
-
 #header-right{
     .widget{
         ul.menu{
@@ -46,27 +47,48 @@ a{color:#EF4481;}
 } 
 
 
+#header-right .widget ul.menu li:hover > a, #header-right .widget ul.menu a:focus, #header-right .widget ul.menu .current-menu-item > a, #header-right .widget ul.menu .current-menu-ancestor > a, #header-right .widget ul.menu .current_page_item > a, #header-right .widget ul.menu .current_page_ancestor > a{color:$light-pink;}
+
 #header-featured-image{ background-color:$light-pink;
-    img{margin:9% 9% -11px -5%;max-height: 80vh;}
+    img{margin:9% 10% -11px 0;width:90%;}
 }
+
+#header-right .header-search-wrap{border-top:3px solid $light-pink;background-color:#fff;}
 
 #site-generator{background-color:#444;}
 
 #content article,  #secondary .widget{background-color:#f0f0f0;}
 
-.mobile-menu-bar{color:#666;
-    &:hover{}
+#header-mobile-menu{
+    .mobile-menu-bar{color:#666;}
+    .mobile-menu{color:#666;border-top:3px solid $light-pink;background-color:#666;
+        &:hover{color:$light-pink;}
+           li{
+            a{color:#f0f0f0;border-bottom:1px solid #666;
+                &:hover{ background-color:#444;  color:$light-pink;}
+            }
+        }
+    }
+
 }
+
 .mobile-menu-bar:hover, #header-search:hover{color:$dark-pink;}
-
-.mobile-menu{background-color:#444;border:0px solid blue;}
-.mobile-menu li a{color:#f0f0f0;border-bottom:1px solid #666;}
-.mobile-menu li a:hover{ background-color:#444;  color:$light-pink;}
-
-#header-right .header-search-wrap{background-color: $light-pink;}
 
 #site-generator .powered{display:none;}
 
+.widget-area .widget {
+    a:hover, a:focus, a:active{color:$light-pink;text-decoration:none;}
+}
+
+#footer-sidebar .widget ul{list-style:none;}
+
+.entry-header .entry-title{
+    a:hover, a:focus, a:active{color:$light-pink;}
+} 
+
+#supplementary .widget-area, #supplementary .widget-area a{
+    &:hover, &:focus, &:active{color:$light-pink;}
+}
 
 /* ==========================================================================
    Base styles: opinionated defaults
