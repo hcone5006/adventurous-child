@@ -1,0 +1,28 @@
+.fancybox-inner figure {
+    max-height: 90vh;
+    max-width: 75vw;
+    padding: 3%;
+   img {
+       max-width: 75vw;
+       max-height: 75vh;
+       display: block;
+       margin: 0 auto;
+    }
+    figcaption {
+       margin: 1%;
+    }
+}
+
+figcaption {
+    a {
+        text-decoration: none;
+        color: $light-highlight;
+        background-color: lighten($dark-color, 20%);
+        border-radius: 20px;
+        border: 8px solid lighten($dark-color, 20%);
+        margin-left: 3%;
+        &:hover {
+            color: lighten($highlight-color, 10%);
+        }
+    }
+}

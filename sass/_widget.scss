@@ -1,0 +1,22 @@
+.widget-area .widget {
+    a:hover,
+    a:focus,
+    a:active {
+        color: $light-highlight;
+        text-decoration: none;
+    }
+}
+
+#supplementary .widget-area,
+#supplementary .widget-area a {
+    &:hover,
+    &:focus,
+    &:active {
+        color: $light-highlight;
+    }
+}
+
+#content article,
+#secondary .widget {
+    background-color: $bg-light-color
+}

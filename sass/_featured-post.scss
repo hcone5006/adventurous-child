@@ -1,0 +1,20 @@
+#featured-post {
+    background-color: $contrast-color;
+    padding-top: 20px;
+    .entry-title {
+        background-color: $contrast-color-2;
+        font-weight: lighter;
+        padding: 20px 0;
+        margin-top: 0;
+        a {
+            color: $bg-light;
+        }
+    }
+}
+
+.featured-homepage-image {
+    img.wp-post-image {
+        display: none;
+        visibility: hidden;
+    }
+}

@@ -1,0 +1,9 @@
+.entry-header .entry-title {
+    a {
+        &:hover,
+        &:focus,
+        &:active {
+            color: $light-highlight;
+        }
+    }
+}

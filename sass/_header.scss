@@ -1,0 +1,70 @@
+#header-mobile-menu {
+    .mobile-menu-bar {
+        color: $med-light-color;
+    }
+    .mobile-menu {
+        color:$med-light-color;
+        border-top: 3px solid $light-highlight;
+        background-color: $med-light-color;
+        &:hover {
+            color: $light-highlight;
+        }
+           li {
+            a {
+                color: $bg-light-color;
+                border-bottom: 1px solid $med-light-color;
+                &:hover {
+                    background-color: $med-color;
+                    color: $light-highlight;
+                }
+            }
+        }
+    }
+}
+
+.mobile-menu-bar:hover,
+#header-search:hover {
+    color: $dark-highlight;
+}
+
+#header-right {
+    .widget {
+        ul.menu {
+            a {
+                color: $bg-light;
+                // padding: 5px 10%;
+                // border-radius: 5px;
+                &:hover,
+                &:focus,
+                .current-menu-ancestor > a,
+                .current_page_item > a,
+                .current_page_ancestor > a {
+                    color: $light-highlight;
+                }
+            }
+        }
+    }
+} 
+
+
+#header-right .widget ul.menu li:hover > a,
+#header-right .widget ul.menu a:focus,
+#header-right .widget ul.menu .current-menu-item > a,
+#header-right .widget ul.menu .current-menu-ancestor > a,
+#header-right .widget ul.menu .current_page_item > a,
+#header-right .widget ul.menu .current_page_ancestor > a {
+    color: $light-highlight;
+}
+
+#header-featured-image {
+    background-color: $light-highlight;
+    img {
+        margin: 9% 10% -11px 0;
+        width: 90%;
+    }
+}
+
+#header-right .header-search-wrap {
+    border-top: 3px solid $light-highlight;
+    background-color: $bg-light;
+}
