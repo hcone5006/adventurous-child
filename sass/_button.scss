@@ -1,0 +1,22 @@
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+.hentry.post-password-required input[type=submit],
+li.bypostauthor cite span {
+    background-color: $shadow;
+    background-image: none;
+    color: $bg-light;
+    border: 0 solid red;
+    box-shadow: none;
+    transition: background-color 1s ease-in-out;
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: $contrast-color;
+        background-image: none;
+        color: $bg-light;
+        border: 0 solid red;
+        box-shadow: none;
+    }
+}

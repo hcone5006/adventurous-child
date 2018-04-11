@@ -1,10 +1,10 @@
 a {
-    color: $light-highlight;
+    color: $contrast-color;
     &:hover,
     &:active,
     &:focus {
-        text-decoration: none;
-        color: $dark-highlight;
+        // text-decoration: none;
+        // color: $dark-highlight;
     }
 }
 
@@ -29,10 +29,19 @@ a {
 
 .wrapper {
     .max {
-        @media only screen and (min-width: 1000px) { 
+        @media only screen and (min-width: 1000px) {
             max-width: 1400px;
             display: block;
             margin: 0 auto;
         }
     }
+}
+
+
+body,
+button,
+input,
+select,
+textarea {
+    font-family: 'Raleway', sans-serif;
 }

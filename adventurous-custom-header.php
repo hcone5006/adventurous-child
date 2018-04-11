@@ -527,7 +527,7 @@ function adventurous_featured_overall_image() {
 		}
 	}
 	else {
-		echo '<!-- Disable Header Image --> <div id="full-width"><h1 id="animate-text" contenteditable>Hi there</h1></div>';
+		echo '<!-- Disable Header Image --> <div id="full-width"><h1 id="animate-text" contenteditable></h1></div>';
 	}
 
 } // adventurous_featured_overall_image

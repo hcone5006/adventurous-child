@@ -1,9 +1,15 @@
 .entry-header .entry-title {
     a {
+        color: $med-light-color;
         &:hover,
         &:focus,
         &:active {
-            color: $light-highlight;
+            color: $contrast-color;
         }
     }
+}
+
+
+.entry-meta {
+    color: $dark-color;
 }

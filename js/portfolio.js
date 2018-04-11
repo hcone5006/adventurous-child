@@ -50,9 +50,9 @@ $(document).ready(function(){
 		openEffect  : 'elastic'
 	});
 
-	var h1 = document.querySelector("#animate-text");
+	// var h1 = document.querySelector("#animate-text");
 
-	h1.addEventListener("input", function() {
-		this.setAttribute("data-heading", this.innerText);
-	});
+	// h1.addEventListener("input", function() {
+	// 	this.setAttribute("data-heading", this.innerText);
+	// });
 })

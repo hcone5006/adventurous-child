@@ -1,22 +1,26 @@
 .widget-area .widget {
-    a:hover,
-    a:focus,
-    a:active {
-        color: $light-highlight;
-        text-decoration: none;
+    a {    
+        color: $dark-color;
+        &:hover,
+        &:focus,
+        &:active {
+            color: $contrast-color;
+            text-decoration: none;
+        }
     }
 }
 
 #supplementary .widget-area,
 #supplementary .widget-area a {
+    color: $bg-light-color;
     &:hover,
     &:focus,
     &:active {
-        color: $light-highlight;
+        color: $contrast-color;
     }
 }
 
 #content article,
 #secondary .widget {
-    background-color: $bg-light-color
+    background-color: $bg-light-color;
 }

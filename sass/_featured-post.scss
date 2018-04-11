@@ -1,12 +1,22 @@
 #featured-post {
-    background-color: $contrast-color;
+    background-color: $med-light-color;
     padding-top: 20px;
     .entry-title {
-        background-color: $contrast-color-2;
+        background-color: $shadow;
         font-weight: lighter;
-        padding: 20px 0;
+        padding: 0;
         margin-top: 0;
+        transition: background-color 1s ease-in-out;
+        &:hover,
+        &:focus,
+        &:active {
+            background-color: $contrast-color;
+        }
         a {
+            padding: 10px 0;
+            height: 100%;
+            width: 100%;
+            display: block;
             color: $bg-light;
         }
     }

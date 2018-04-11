@@ -17,7 +17,7 @@
             &:hover,
             &.selected {
                 border-radius: 30px;
-                background-color: lighten($highlight-color, 10%);
+                background-color: lighten($contrast-color, 10%);
             }
         }
     }

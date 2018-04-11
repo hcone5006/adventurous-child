@@ -16,13 +16,13 @@
 figcaption {
     a {
         text-decoration: none;
-        color: $light-highlight;
+        color: $contrast-color;
         // background-color: lighten($contrast-color:, 20%);
         border-radius: 20px;
         // border: 8px solid lighten($contrast-color, 20%);
         margin-left: 3%;
-        &:hover {
-            color: lighten($highlight-color, 10%);
-        }
+        // &:hover {
+        //     color: lighten($contrast-color, 10%);
+        // }
     }
 }

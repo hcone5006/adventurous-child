@@ -97,7 +97,7 @@ do_action( 'adventurous_before' ); ?>
     <div id="main-wrapper">
 		<?php   if ( is_home() ) { ?>
 			<div id="full-width">
-				<h1 id="animate-text" contenteditable>Hi there</h1>
+				<h1 id="animate-text" contenteditable>hello world</h1>
 			</div>
 		<?php } ?>
 		<?php 

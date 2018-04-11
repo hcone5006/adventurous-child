@@ -15,7 +15,7 @@
                 border-bottom: 1px solid $med-light-color;
                 &:hover {
                     background-color: $med-color;
-                    color: $light-highlight;
+                    color: $contrast-color;
                 }
             }
         }
@@ -39,7 +39,7 @@
                 .current-menu-ancestor > a,
                 .current_page_item > a,
                 .current_page_ancestor > a {
-                    color: $light-highlight;
+                    color: $contrast-color;
                 }
             }
         }
@@ -53,7 +53,7 @@
 #header-right .widget ul.menu .current-menu-ancestor > a,
 #header-right .widget ul.menu .current_page_item > a,
 #header-right .widget ul.menu .current_page_ancestor > a {
-    color: $light-highlight;
+    color: $contrast-color;
 }
 
 #header-featured-image {

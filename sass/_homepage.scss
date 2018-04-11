@@ -32,3 +32,8 @@
         }
     }
 }
+
+.hentry.format-aside .aside {
+    border-left: 22px solid $contrast-color;
+    background: $bg-light;
+}
