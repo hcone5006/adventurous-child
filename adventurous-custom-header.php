@@ -484,7 +484,7 @@ function adventurous_featured_overall_image() {
 		$individual_featured_image = get_post_meta( $post->ID, 'adventurous-header-image', true );
 
 		if ( 'disable' == $individual_featured_image || ( 'default' == $individual_featured_image && 'disable' == $enableheaderimage ) ) {
-			echo '<!-- Page/Post Disable Header Image --> <div id="full-width"><h1 id="animate-text" contenteditable>Hi there</h1></div>';
+			echo '<!-- Page/Post Disable Header Image --> <div id="full-width"><h1 id="animate-text" contenteditable>hello world</h1></div>';
 			return;
 		}
 		elseif ( 'enable' == $individual_featured_image && 'disable' == $enableheaderimage ) {

@@ -15,7 +15,7 @@ add_action( 'wp_enqueue_scripts', 'my_scripts');
 function theme_enqueue_styles() {
 
     $parent_style = 'parent-style';
-
+    wp_enqueue_style( 'decovar' . 'https://fontlibrary.org/face/decovar' );
     wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
     wp_enqueue_style( 'fancybox', $dir . '/fancyBox/source/jquery.fancybox.css' );
     wp_enqueue_style( 'child-style',

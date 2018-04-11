@@ -46,7 +46,13 @@ $(document).ready(function(){
     });
     
     $('.fancybox').fancybox({
-            padding : 0,
-            openEffect  : 'elastic'
-        });
+		padding : 0,
+		openEffect  : 'elastic'
+	});
+
+	var h1 = document.querySelector("#animate-text");
+
+	h1.addEventListener("input", function() {
+		this.setAttribute("data-heading", this.innerText);
+	});
 })
