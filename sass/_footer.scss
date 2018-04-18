@@ -4,7 +4,20 @@
         list-style: none;
     }
 }
- // footer {
+
+#footer-sidebar {
+    #supplementary .widget-area,
+    #supplementary .widget-area a {
+        color: $bg-light-color;
+        &:hover,
+        &:focus,
+        &:active {
+            color: $contrast-color;
+        }
+    }
+}
+
+ // footer { 
     //     padding: 3%; /*20/340*/
     //     background-color: lighten($dark-color, 20%);
     //     color: $light-highlight;

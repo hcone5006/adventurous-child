@@ -216,20 +216,25 @@ a {
 /* line 16, ../sass/_base.scss */
 #site-generator {
   background-color: #353950;
+  color: white;
+}
+/* line 19, ../sass/_base.scss */
+#site-generator a {
+  color: #08b2e3;
 }
 
-/* line 20, ../sass/_base.scss */
+/* line 24, ../sass/_base.scss */
 #site-generator .powered {
   display: none;
 }
 
-/* line 25, ../sass/_base.scss */
+/* line 29, ../sass/_base.scss */
 .panels img {
   width: 100%;
 }
 
 @media only screen and (min-width: 1000px) {
-  /* line 31, ../sass/_base.scss */
+  /* line 35, ../sass/_base.scss */
   .wrapper .max {
     max-width: 1400px;
     display: block;
@@ -237,13 +242,14 @@ a {
   }
 }
 
-/* line 45, ../sass/_base.scss */
+/* line 49, ../sass/_base.scss */
 body,
 button,
 input,
 select,
 textarea {
   font-family: 'Raleway', sans-serif;
+  color: #353950;
 }
 
 /* line 2, ../sass/_header.scss */
@@ -381,6 +387,19 @@ nav ul li:hover, nav ul li.selected {
   list-style: none;
 }
 
+/* line 10, ../sass/_footer.scss */
+#footer-sidebar #supplementary .widget-area,
+#footer-sidebar #supplementary .widget-area a {
+  color: #ededf3;
+}
+/* line 14, ../sass/_footer.scss */
+#footer-sidebar #supplementary .widget-area:hover, #footer-sidebar #supplementary .widget-area:focus, #footer-sidebar #supplementary .widget-area:active,
+#footer-sidebar #supplementary .widget-area a:hover,
+#footer-sidebar #supplementary .widget-area a:focus,
+#footer-sidebar #supplementary .widget-area a:active {
+  color: #08b2e3;
+}
+
 /* line 6, ../sass/_button.scss */
 button,
 input[type="submit"],
@@ -419,16 +438,20 @@ li.bypostauthor cite span:focus {
   box-shadow: none;
 }
 
-/* line 2, ../sass/_entry.scss */
+/* line 1, ../sass/_entry.scss */
+.entry-header .entry-title {
+  color: #565b81;
+}
+/* line 3, ../sass/_entry.scss */
 .entry-header .entry-title a {
   color: #565b81;
 }
-/* line 6, ../sass/_entry.scss */
+/* line 7, ../sass/_entry.scss */
 .entry-header .entry-title a:hover, .entry-header .entry-title a:focus, .entry-header .entry-title a:active {
   color: #08b2e3;
 }
 
-/* line 13, ../sass/_entry.scss */
+/* line 14, ../sass/_entry.scss */
 .entry-meta {
   color: #353950;
 }
@@ -1475,7 +1498,7 @@ figcaption a {
 /* line 14, ../sass/_widget.scss */
 #supplementary .widget-area,
 #supplementary .widget-area a {
-  color: #ededf3;
+  color: #565b81;
 }
 /* line 18, ../sass/_widget.scss */
 #supplementary .widget-area:hover, #supplementary .widget-area:focus, #supplementary .widget-area:active,
